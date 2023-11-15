@@ -25,7 +25,7 @@ public class Matrix {
 
     public void printMatrix() {
         for (int x = 0; x < size; x++) {
-            for (int y = 0; 0 < size; y++) {
+            for (int y = 0; y < size; y++) {
                 if (x + y == size - 1) {
                     System.out.print("\u001B[1;94m\u001B[4m" + matrix[x][y] + "\u001B[0m\t");
                 } else {
